@@ -1,6 +1,6 @@
 %define name madwifi-source
 %define short_name madwifi
-%define version 0.9.2
+%define version 0.9.3
 %define release %mkrel 1
 
 Summary: Madwifi drivers source code
