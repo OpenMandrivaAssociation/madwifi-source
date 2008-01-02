@@ -14,6 +14,7 @@ License: GPL
 Group: Development/Kernel
 Url: http://madwifi.org/
 BuildArch: noarch
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 
 %description
