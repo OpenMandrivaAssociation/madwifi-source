@@ -29,12 +29,12 @@ because it contains non-free binary code in the HAL.
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/usr/src/%{short_name}
-cp -a net80211 include $RPM_BUILD_ROOT/usr/src/%{short_name}
+rm -rf %{buildroot}
+install -d %{buildroot}/usr/src/%{short_name}
+cp -a net80211 include %{buildroot}/usr/src/%{short_name}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
