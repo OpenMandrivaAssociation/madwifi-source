@@ -4,7 +4,7 @@
 %define version 0.9.3.3
 %define snaprev r3114
 %define snapdate 20080104
-%define rel 9
+%define rel 10
 %if %{snapdate}
 %define distname madwifi-ng-%{snaprev}-%{snapdate}
 %define release %mkrel %{rel}.%{snaprev}
