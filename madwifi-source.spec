@@ -7,10 +7,10 @@
 %define rel 11
 %if %{snapdate}
 %define distname madwifi-ng-%{snaprev}-%{snapdate}
-%define release %mkrel %{rel}.%{snaprev}
+%define release %{rel}.%{snaprev}.1
 %else
 %define distname %{short_name}-%{version}
-%define release %mkrel %{rel}
+%define release %{rel}.1
 %endif
 
 Summary: Madwifi drivers source code
